@@ -1,0 +1,581 @@
+@font-face {
+    font-family: Didact;
+    src: url('./fonts/DidactGothic-Regular.ttf');
+}
+
+@font-face {
+    font-family: Fjalla;
+    src: url('./fonts/FjallaOne-Regular.ttf');
+}
+
+@font-face {
+    font-family: WorkSans;
+    src: url('./fonts/WorkSans-Regular.ttf');
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    /* ! Benötigt man damit man mit REM nicht rechnen muss. so kann ich zb eine h1 nun einfach auf 1.6rem stellen ? 16px*/
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+  }
+
+header {
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 23.46px;
+    font-family: 'WorkSans', Arial, Helvetica, sans-serif;
+    color: #000000;
+    text-align: center;
+    margin-top: 1.5rem;
+}
+/* h2 Digital Designer */
+
+section:nth-of-type(1) h2{
+    font-family: 'Didact', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10rem;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #000000;
+
+}
+
+main section img {
+    margin: 8rem auto;
+    display: block;
+    width: 600px;
+} 
+
+/* Text Work */
+
+.image2 section{
+    padding: 10vh 0 0 220px;
+}
+
+
+
+.work {
+    font-family: 'WorkSans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16rem;
+    line-height: 188px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #000000;
+}
+
+
+
+.image2{
+    background-image: url('./img/portfolio2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.image2 section{
+    text-align: left;
+    padding: 24vh 0 0 220px;
+}
+
+
+
+/* Text -2019 */
+
+.image2 h3:nth-of-type(1){
+    font-family: 'WorkSans', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 23px;
+    letter-spacing: -0.05em;
+
+    color: #9E9E9E;
+
+    padding-bottom: 3rem;
+}
+
+/* Text ORBIS */
+
+.image2 h1{
+    font-family: 'Didact Gothic', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11.2rem;
+    line-height: 147px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+    margin-bottom: 4rem;
+}
+
+/* Text Corporate Design */
+
+.image2 h3:nth-of-type(2){
+    font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 23px;
+    letter-spacing: -0.05em;
+    color: #9E9E9E;
+    margin-bottom: 120px;
+}
+
+/* Text DIVE IN */
+.image2 section h2:hover{
+    color: black;
+    background-color: white;
+    border: 2px solid white;
+}
+
+.image2 section h2:hover ~ .number {
+    color: white;
+    filter: opacity(100%);
+}
+.image2 section h2{
+    font-family: 'Fjalla One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+    border: 1px solid white;
+    
+    display: inline;
+
+    padding: 15px;
+}
+
+/* 01 */
+
+.image2 p{
+    text-align: right;
+    font-family: 'Fjalla One', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16.5rem;
+    line-height: 207px;
+    text-align: right;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #9E9E9E;
+
+    padding: 0 120px 100px 0;
+}
+
+
+
+/* Seite 2 */
+
+.image3 {
+    background-image: url('./img/portfolio3.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.image3 section{
+    text-align: left;
+    padding: 24vh 0 0 220px;
+}
+
+
+
+/* Text -2019 */
+
+.image3 h3:nth-of-type(1){
+    font-family: 'WorkSans', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 23px;
+    letter-spacing: -0.05em;
+
+    color: #9E9E9E;
+
+    padding-bottom: 3rem;
+}
+
+/* Text Roller */
+
+.image3 h1{
+    font-family: 'Didact Gothic', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11.2rem;
+    line-height: 147px;
+    text-transform: uppercase;
+
+    color: #000000;
+
+    margin-bottom: 4rem;
+}
+
+/* Text Marketing Website */
+
+.image3 h3:nth-of-type(2){
+    font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 23px;
+    letter-spacing: -0.05em;
+    color: #9E9E9E;
+    margin-bottom: 120px;
+}
+
+/* Text DIVE IN */
+.image3 section h2:hover{
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+}
+
+.image3 section h2:hover ~ .number2 {
+    color: black;
+    filter: opacity(100%);
+}
+.image3 section h2{
+    font-family: 'Fjalla One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #000000;
+
+    border: 1px solid black;
+    
+    display: inline;
+
+    padding: 15px;
+}
+
+/* 01 */
+
+.image3 p{
+    text-align: right;
+    font-family: 'Fjalla One', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16.5rem;
+    line-height: 207px;
+    text-align: right;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #9E9E9E;
+
+    padding: 0 120px 100px 0;
+}
+
+/* Seite 3 */
+
+.image4 {
+    background-image: url('./img/portfolio4.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.image4 section{
+    text-align: left;
+    padding: 24vh 0 0 220px;
+}
+
+
+
+/* Text -2019 */
+
+.image4 h3:nth-of-type(1){
+    font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 23px;
+    letter-spacing: -0.05em;
+
+    color: #9E9E9E;
+
+    padding-bottom: 3rem;
+}
+
+/* Text ORBIS */
+
+.image4 h1{
+    font-family: 'Didact Gothic', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11.2rem;
+    line-height: 147px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+    margin-bottom: 4rem;
+}
+
+/* Text Corporate Design */
+
+.image4 h3:nth-of-type(2){
+    font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 23px;
+    letter-spacing: -0.05em;
+    color: #9E9E9E;
+    margin-bottom: 120px;
+}
+
+/* Text DIVE IN */
+.image4 section h2:hover{
+    color: black;
+    background-color: white;
+    border: 2px solid white;
+}
+
+.image4 section h2:hover ~ .number3 {
+    color: white;
+    filter: opacity(100%);
+}
+.image4 section h2{
+    font-family: 'Fjalla One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+    border: 1px solid white;
+    
+    display: inline;
+
+    padding: 15px;
+}
+
+/* 01 */
+
+.image4 p{
+    text-align: right;
+    font-family: 'Fjalla One', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16.5rem;
+    line-height: 207px;
+    text-align: right;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #9E9E9E;
+
+    padding: 0 120px 100px 0;
+}
+
+/* Seite 4 */
+
+.image5 {
+    background-image: url('./img/portfolio5.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.image5 section{
+    text-align: left;
+    padding: 24vh 0 0 220px;
+}
+
+
+
+/* Text -2019 */
+
+.image5 h3:nth-of-type(1){
+    font-family: 'WorkSans', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 23px;
+    letter-spacing: -0.05em;
+
+    color: #9E9E9E;
+
+    padding-bottom: 3rem;
+}
+
+/* Text ORBIS */
+
+.image5 h1{
+    font-family: 'Didact Gothic', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11.2rem;
+    line-height: 147px;
+    text-transform: uppercase;
+
+    color: #000000;
+
+    margin-bottom: 4rem;
+}
+
+/* Text Corporate Design */
+
+.image5 h3:nth-of-type(2){
+    font-family: 'WorkSans', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 23px;
+    letter-spacing: -0.05em;
+    color: #9E9E9E;
+    margin-bottom: 120px;
+}
+
+/* Text DIVE IN */
+.image5 section h2:hover{
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+}
+
+.image5 section h2:hover ~ .number4 {
+    color: black;
+    filter: opacity(100%);
+}
+.image5 section h2{
+    font-family: 'Fjalla One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+    border: 1px solid white;
+    
+    display: inline;
+
+    padding: 15px;
+}
+
+/* 01 */
+
+.image5 p{
+    text-align: right;
+    font-family: 'Fjalla One', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16.5rem;
+    line-height: 207px;
+    text-align: right;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #9E9E9E;
+
+    padding: 0 120px 100px 0;
+}
+
+/* Seite 5 */
+
+.blackpage {
+    font-family: 'WorkSans',Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+    height: 100vh;
+}
+
+/* Text What more? */
+
+.blackpage h1{
+    font-style: normal;
+ font-weight: 400;
+ font-size: 18rem;
+ line-height: 211px;
+ text-align: center;
+ letter-spacing: -0.1em;
+ color: #FFFFFF;
+ padding-top: 13rem;
+ padding-bottom: 15rem;
+}
+
+/* Beide Texte */
+
+.blackpage section{
+    font-family: 'WorkSans', Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    margin: 70px 100px 70px 640px;
+    font-weight: 400;
+    font-size: 2.2rem;
+    line-height: 40px;
+    letter-spacing: -0.06em;
+    color: #666666;
+}
+.blackpage p:first-of-type{
+    padding: 0 0 70px 0;
+}
+
+
+/* P1*/
+
+
+/* P2 */
+
+.blackpage a{
+    font-family: 'WorkSans', Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 6rem;
+line-height: 70px;
+letter-spacing: -0.06em;
+color: #FFFFFF;
+text-decoration: none;
+}
+
+.blackpage a:hover {
+    text-decoration: underline;
+}
+
+/* Letzte Seite */
+
+.links {
+    background-color: white;
+    background-position: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.links a{
+    color: black;
+    font-weight: 400;
+    font-size: 16rem;
+    line-height: 210px;
+    text-align: center;
+    font-family: 'Didact',Arial, Helvetica, sans-serif;
+    display: block;
+    text-decoration: none;
+}
+
+.links a:hover{
+    text-decoration: underline;
+}
+
+footer{
+
+}
